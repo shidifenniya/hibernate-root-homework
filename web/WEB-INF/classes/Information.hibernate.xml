@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.lanou.domain.Information" table="information">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="username" length="30"/>
+        <property name="password" length="30"/>
+        <property name="info"/>
+    </class>
+</hibernate-mapping>
