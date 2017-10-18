@@ -113,7 +113,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 
                 String value = (String) params.get(key);
 
-                System.out.println(key + ":" + value);
+//                System.out.println(key + ":" + value);
 
                 //设置条件语句中对应的参数了列表
                 //第一个参数对应列名,第二个参数对应列值
